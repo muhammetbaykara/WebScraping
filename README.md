@@ -42,9 +42,9 @@ doğal dil işleme (NLP) projeleri için büyük metin veri kümeleri oluşturma
 
 
 ## Yasal ve Etik Hususlar
-Web kazıma güçlü bir araç olsa da, kullanımında yasal ve etik kurallara dikkat edilmesi gerekmektedir
+Web kazıma güçlü bir araç olsa da, kullanımında yasal ve etik kurallara dikkat edilmesi gerekmektedir.
 
-## 1) Yasal Çerçeve:
+### 1) Yasal Çerçeve:
 - **Kullanım Şartları:** Çoğu web sitesi kazıma işlemine izin verilip verilmediğini açıklar veya 
 kullanım koşullarında yer almamaktadır. Bu kurallara uyulmaması şu sonuçlara yol açabilir 
 yasal yaptırımlarda.
@@ -56,7 +56,7 @@ ve Amerika Birleşik Devletleri'ndeki CCPA kişisel verileri korumayı amaçlama
 bireyler. Bu tür düzenlemelere uyulması zorunludur. 
 kazıma işlemleri.
 
-## 2) Etik Konular:
+### 2) Etik Konular:
 - **Veri Sahibinin Rızası:** Tarafın rızası olmadan kazıma yapılması 
 veri sağlamak etik dışı bir davranış olarak kabul edilir.
 - **Kaynakların Yüklenmesi:** Bir web sitesinden büyük miktarda verinin çekilmesi 
@@ -69,7 +69,7 @@ Kaynağın açıkça belirtilmesi etik bir gerekliliktir.
 
 ## Beautiful Soup
 
-## Kullanım Amacı
+### Kullanım Amacı
  Beautiful Soup, Python ile yazılmış ve HTML ile XML dosyalarını işlemek için kullanılan bir kütüphanedir. Web kazıma projelerinde yaygın olarak tercih edilen Beautiful Soup'un temel kullanım alanları şunlardır:
 
 - **HTML Ayrıştırma:** Web sitelerinin HTML kodlarını analiz ederek yapılandırılmış veri elde etme 
@@ -79,7 +79,7 @@ web sayfaları.
 - **Navigasyon:** DOM ağacındaki öğelerde kolay navigasyon ve organizasyon
 - **Düzenleme:** HTML veya XML belgelerini düzenleyerek yeni veri yapıları oluşturma
 
-## Temel Özellikler ve Avantajlar
+### Temel Özellikler ve Avantajlar
  - **Kullanıcı Dostu API:** Geliştiriciler HTML belgelerinde kolayca gezinebilir ve
  veri ayıklayın.
  - **Esneklik:** Farklı ayrıştırıcılarla çalışabilir (örn. Htm.parser, lxml).
@@ -149,12 +149,12 @@ else:
 
 ## Selenium
 
-## Dinamik Web Sayfalarındaki Rolü
+### Dinamik Web Sayfalarındaki Rolü
  Selenium, web tarayıcılarını otomatikleştirmek için kullanılan güçlü bir araçtır. 
  Beautiful Soup'tan farklı olarak, dinamik içerikle (JavaScript ile yüklenen veriler gibi) çalışan web sayfalarındaki verileri çıkarmak için idealdir. 
- Selenium, tarayıcıda insan davranışını taklit eder ve sayfalarda gezinme, form doldurma gibi etkileşimleri simüle edebilir..
+ Selenium, tarayıcıda insan davranışını taklit eder ve sayfalarda gezinme, form doldurma gibi etkileşimleri simüle edebilir.
 
- ## Beautiful Soup ile Farklılıklar
+ ### Beautiful Soup ile Farklılıklar
 - **Dinamik İçerik:**  Selenium, JavaScript tabanlı içeriği işleyebilirken, Beautiful Soup yalnızca statik HTML ile çalışır.
 - **Performans:** Selenium daha yavaş bir tarayıcı simülasyonu gerektirirken, Beautiful Soup hız konusunda daha etkilidir.
 - **Etkileşim:**  Selenium, form doldurma, düğmelere tıklama gibi etkileşimleri desteklerken, Beautiful Soup yalnızca veri çekmeye yöneliktir.
@@ -236,4 +236,4 @@ finally:
  
 - **Beautiful Soup:** Eğer fiyatlar ve ürün başlıkları doğrudan HTML içinde mevcutsa.
 - **Selenium:** Eğer fiyatlar ve ürün başlıkları JavaScript ile yükleniyorsa.
-- **İkisini Birlikte Kullanma:** Dinamik içerik Selenium ile yüklenir, ardından Beautiful Soup ile veri çekilir
+- **İkisini Birlikte Kullanma:** Dinamik içerik Selenium ile yüklenir, ardından Beautiful Soup ile veri çekilir.
