@@ -234,6 +234,6 @@ finally:
 ## Örnek Projede Kullanım Senaryosu
  Bir e-ticaret sitesinden ürün bilgilerini çekmek istediğimizi varsayalım:
  
--**Beautiful Soup:** Eğer fiyatlar ve ürün başlıkları doğrudan HTML içinde mevcutsa.
--**Selenium:** Eğer fiyatlar ve ürün başlıkları JavaScript ile yükleniyorsa.
--**İkisini Birlikte Kullanma:** Dinamik içerik Selenium ile yüklenir, ardından Beautiful Soup ile veri çekilir
+- **Beautiful Soup:** Eğer fiyatlar ve ürün başlıkları doğrudan HTML içinde mevcutsa.
+- **Selenium:** Eğer fiyatlar ve ürün başlıkları JavaScript ile yükleniyorsa.
+- **İkisini Birlikte Kullanma:** Dinamik içerik Selenium ile yüklenir, ardından Beautiful Soup ile veri çekilir
