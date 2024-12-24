@@ -14,7 +14,7 @@ Teknik açıdan web kazıma, bir web sayfasını elde etmek için HTTP istekleri
 ## Hangi Durumlarda Kullanılır?
  Web kazıma, farklı sektörlerde geniş bir kullanım alanına sahiptir. Aşağıda en yaygın kullanım alanları sıralanmıştır:
 
- ** 1) E-Ticaret ve Fiyat İzleme:** Şirketler web kazıma yöntemini kullanır 
+ **1) E-Ticaret ve Fiyat İzleme:** Şirketler web kazıma yöntemini kullanır 
 rakiplerin fiyatlandırma politikalarını izlemek için teknikler. Bu şekilde, dinamik 
 fiyatlandırma stratejileri geliştirilebilir ve rekabetçi fiyatlar sunulabilir. 
 tüketiciler.
