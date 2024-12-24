@@ -1,4 +1,4 @@
-# WEB SCRAPİNG
+#                                                WEB SCRAPİNG
 
 ## What is Web Scraping?
  Web scraping is a technique that refers to the process of collecting 
