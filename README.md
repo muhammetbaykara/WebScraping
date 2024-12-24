@@ -1,107 +1,108 @@
 #                                                WEB SCRAPİNG
 
-## What is Web Scraping?
- Web scraping is a technique that refers to the process of collecting 
-structured data from websites. This is done by automatically scanning the 
-HTML code of web pages and extracting relevant information. It is usually 
-implemented using programming languages such as Python and libraries 
-such as Beautiful Soup and Selenium. Web scraping enables large-scale and 
-automated data analysis by eliminating the challenges of manual data 
-collection. In this way, it plays a critical role in various fields such as data 
-analytics, machine learning and business intelligence.
+## Web Kazıma Nedir?
+ Web kazıma, aşağıdakileri toplama sürecini ifade eden bir tekniktir 
+web sitelerinden yapılandırılmış veriler. Bu, web sitelerini otomatik olarak tarayarak yapılır. 
+Web sayfalarının HTML kodu ve ilgili bilgilerin çıkarılması. Genellikle 
+Python gibi programlama dilleri ve kütüphaneler kullanılarak uygulanır 
+Beautiful Soup ve Selenium gibi. Web kazıma, büyük ölçekli ve 
+manuel veri analizinin zorluklarını ortadan kaldırarak otomatik veri analizi 
+toplama. Bu sayede veri toplama gibi çeşitli alanlarda kritik bir rol oynar. 
+analitik, makine öğrenimi ve iş zekası.
 
- Technically, web scraping is a process designed to source a web page by 
-sending HTTP requests, analyze the HTML DOM (Document Object Model) 
-structure and extract specific data. In this process, many different types of 
-data can be collected, such as text, images, video. The collected data can 
-then be used to be analyzed, visualized or integrated into other systems
+ Teknik olarak, web kazıma, bir web sayfasını aşağıdaki yöntemlerle elde etmek için tasarlanmış bir süreçtir 
+HTTP istekleri göndermek, HTML DOM'u (Belge Nesne Modeli) analiz etmek 
+yapısı ve belirli verilerin çıkarılması. Bu süreçte, birçok farklı türde 
+metin, resim, video gibi veriler toplanabilir. Toplanan veriler şunları yapabilir 
+daha sonra analiz edilmek, görselleştirilmek veya diğer sistemlere entegre edilmek için kullanılabilir
+
+
 
 ![Web Scraping](https://storage.semalt.com/uploads/articles/52bc1f7c20b1b1a75ca20fffbd210f352.png)
 
 
 
-## In Which Situations Is It Used?
- Web scraping has a wide range of uses in many different industries. The 
-most common use cases are listed below:
+## Hangi Durumlarda Kullanılır?
+ Web kazıma, birçok farklı sektörde geniş bir kullanım alanına sahiptir. Bu 
+en yaygın kullanım durumları aşağıda listelenmiştir:
 
- **1) E-Commerce and Price Monitoring:** Companies use web scraping 
-techniques to track competitors' pricing policies. In this way, dynamic 
-pricing strategies can be developed and competitive prices can be offered to 
-consumers.
+ **1) E-Ticaret ve Fiyat İzleme:** Şirketler web kazıma yöntemini kullanır 
+rakiplerin fiyatlandırma politikalarını izlemek için teknikler. Bu şekilde, dinamik 
+fiyatlandırma stratejileri geliştirilebilir ve rekabetçi fiyatlar sunulabilir. 
+tüketiciler.
 
- **2) News and Information Aggregation:** News agencies and content 
-providers can compile news headlines and content from different sources.
+ **2) Haber ve Bilgi Toplama:** Haber ajansları ve içerik 
+sağlayıcılar farklı kaynaklardan haber başlıklarını ve içeriklerini derleyebilir.
 
- **3) Market Analysis:** Data extraction is applied to gather information about 
-potential customers, perform trend analysis and understand market 
-dynamics.
+ **3) Pazar Analizi:** Veri çıkarma, aşağıdakiler hakkında bilgi toplamak için uygulanır 
+potansiyel müşteriler, trend analizi yapmak ve pazarı anlamak 
+dinamikler.
 
- **4) Academic Research and Data Analysis:** Researchers use web scraping 
-techniques to collect and analyze large-scale datasets. Especially platforms 
-that provide large data, such as social media and news sites, are used for 
-this purpose.
+ **4) Akademik Araştırma ve Veri Analizi:** Araştırmacılar web kazıma yöntemini kullanır 
+büyük ölçekli veri kümelerini toplamak ve analiz etmek için teknikler. Özellikle platformlar 
+sosyal medya ve haber siteleri gibi büyük veri sağlayan siteler için kullanılır. 
+bu amaçla.
 
- **5) Real Estate and Job Postings:** Web scraping is used in scenarios such as 
-collecting information about properties for rent or sale on real estate sites 
-or analyzing job postings.
+ **5) Emlak ve İş İlanları:** Web kazıma aşağıdaki gibi senaryolarda kullanılır 
+emlak sitelerinde kiralık veya satılık mülkler hakkında bilgi toplamak 
+veya iş ilanlarını analiz etmek.
 
- **6) Artificial Intelligence and Machine Learning:** The datasets needed for 
-model training can be obtained through scraping methods. For example, 
-creating large text datasets for natural language processing (NLP) projects.
+ **6) Yapay Zeka ve Makine Öğrenimi:** Yapay Zeka ve Makine Öğrenimi için gerekli veri setleri 
+model eğitimi kazıma yöntemleriyle elde edilebilir. Örneğin, 
+doğal dil işleme (NLP) projeleri için büyük metin veri kümeleri oluşturmak.
 
 
 
-## Legal and Ethical Considerations
-Web scraping is a technically powerful tool, but it is a practice that needs to 
-be handled carefully within a legal and ethical framework.
+## Yasal ve Etik Hususlar
+Web kazıma teknik olarak güçlü bir araçtır, ancak aşağıdaki hususlara dikkat edilmesi gereken bir uygulamadır 
+yasal ve etik çerçevede dikkatli bir şekilde ele alınmalıdır.
 
-## 1) Legal Framework:
-- **Terms of Use:** Most websites disclose whether scraping is permitted or 
-not in their terms of use. Failure to comply with these rules may result 
-in legal sanctions.
-- **Copyrights and Intellectual Property:** Content obtained through 
-scraping may be protected by copyright. Unauthorized use of such 
-content may result in legal liability.
-- **Data Protection Laws:** Regulations such as GDPR in the European Union 
-and CCPA in the United States aim to protect the personal data of 
-individuals. It is mandatory to comply with such regulations during 
-scraping operations.
+## 1) Yasal Çerçeve:
+- **Kullanım Şartları:** Çoğu web sitesi kazıma işlemine izin verilip verilmediğini açıklar veya 
+kullanım koşullarında yer almamaktadır. Bu kurallara uyulmaması şu sonuçlara yol açabilir 
+yasal yaptırımlarda.
+- **Telif Hakları ve Fikri Mülkiyet:** Aşağıdaki yollarla elde edilen içerik 
+kazıma telif hakkı ile korunuyor olabilir. Bunların izinsiz kullanımı 
+içerik yasal sorumluluğa neden olabilir.
+- **Veri Koruma Kanunları:** Avrupa Birliği'ndeki GDPR gibi düzenlemeler 
+ve Amerika Birleşik Devletleri'ndeki CCPA kişisel verileri korumayı amaçlamaktadır. 
+bireyler. Bu tür düzenlemelere uyulması zorunludur. 
+kazıma işlemleri.
 
-## 2) Ethical Issues:
-- **Consent of the Data Subject:** Scraping without the consent of the party 
-providing the data is considered unethical behavior.
-- **Loading of Resources:** Pulling large amounts of data from a website at 
-frequent intervals can increase the load on the server and lead to 
-service interruptions. This emphasizes that scraping should be done 
-responsibly.
-- **Citing the Source:** If the collected data is analyzed and published, it is an 
-ethical requirement to clearly identify the source.
-
+## 2) Etik Konular:
+- **Veri Sahibinin Rızası:** Tarafın rızası olmadan kazıma yapılması 
+veri sağlamak etik dışı bir davranış olarak kabul edilir.
+- **Kaynakların Yüklenmesi:** Bir web sitesinden büyük miktarda verinin çekilmesi 
+sık aralıklar sunucu üzerindeki yükü artırabilir ve aşağıdaki sorunlara yol açabilir 
+hizmet kesintileri. Bu, kazıma işleminin yapılması gerektiğini vurgular 
+sorumlu bir şekilde.
+- **Kaynak Gösterme:** Toplanan veriler analiz edilir ve yayınlanırsa, bu bir 
+Kaynağın açıkça belirtilmesi etik bir gerekliliktir.
 
 
 ## Beautiful Soup
 
-## Intended Use
- Beautiful Soup is a library written in Python that is used to process HTML 
-and XML files and extract certain information from them. It is widely 
-preferred in web scraping projects. Its usage areas are as follows:
+## Kullanım Amacı
+ Beautiful Soup, HTML işlemek için kullanılan Python ile yazılmış bir kütüphanedir 
+ve XML dosyaları ve bunlardan belirli bilgileri ayıklayın. Yaygın olarak 
+web kazıma projelerinde tercih edilir. Kullanım alanları aşağıdaki gibidir:
 
-- **HTML Parsing:** Obtaining structured data by analyzing the HTML code of 
-web pages.
-- **Data Extraction:** Extracting data from specific HTML tags or properties 
-(e.g. div, span, table).
-- **Navigation:** Easy navigation and organization of elements in the DOM tree
-- **Editing:** Create new data structures by editing HTML or XML documents
+- **HTML Ayrıştırma:** Web sitelerinin HTML kodlarını analiz ederek yapılandırılmış veri elde etme 
+web sayfaları.
+- **Veri Çıkarma:** Belirli HTML etiketlerinden veya özelliklerinden veri çıkarma 
+(örneğin div, span, table).
+- **Navigasyon:** DOM ağacındaki öğelerde kolay navigasyon ve organizasyon
+- **Düzenleme:** HTML veya XML belgelerini düzenleyerek yeni veri yapıları oluşturma
 
-##  Key Features and Benefits
- - **User FriendlyAPI:** Developers can easily navigate HTML documents and
- extract data.
- - **Flexibility:** Can work with different parsers (e.g. Htm.parser, lxml).
- - **Speed:** Fast data extraction on static web pages.
- - **FaultTolerance:** Maintains data extraction when working with corrupted
- or missing HTML structures.
- - **Compatibility in Python Ecosystem:** It can easily integrate with Python
- libraries such as Pandas, NumPy
+## Temel Özellikler ve Avantajlar
+ - **Kullanıcı Dostu API:** Geliştiriciler HTML belgelerinde kolayca gezinebilir ve
+ veri ayıklayın.
+ - **Esneklik:** Farklı ayrıştırıcılarla çalışabilir (örn. Htm.parser, lxml).
+ - **Hız:** Statik web sayfalarında hızlı veri çıkarma.
+ - **Hata Toleransı:** Bozuk verilerle çalışırken veri çıkarımını korur
+ veya eksik HTML yapıları.
+ - **Python Ekosisteminde Uyumluluk:** Python ile kolayca entegre olabilir
+ Pandas, NumPy gibi kütüphaneler
 
  ```python
  from bs4 import BeautifulSoup
@@ -163,20 +164,20 @@ else:
 
 ## Selenium
 
-##  Role in Dynamic Web Pages
- Selenium is a powerful tool for automating web browsers. Unlike Beautiful 
-Soup, it is not limited to fixed HTML content. It is ideal for handling 
-dynamically loaded content (for example, data generated with JavaScript). 
-Selenium mimics human behavior in the browser, performing tasks such as 
-navigating pages, filling out forms, and extracting data loaded by JavaScript.
+## Dinamik Web Sayfalarındaki Rolü
+ Selenium, web tarayıcılarını otomatikleştirmek için güçlü bir araçtır. Güzel'in aksine 
+Çorba, sabit HTML içeriği ile sınırlı değildir. Kullanım için idealdir 
+Dinamik olarak yüklenen içerik (örneğin, JavaScript ile oluşturulan veriler). 
+Selenium, tarayıcıdaki insan davranışını taklit ederek aşağıdaki gibi görevleri yerine getirir 
+sayfalarda gezinme, form doldurma ve JavaScript tarafından yüklenen verileri ayıklama.
 
- ##  Differences with Beautiful Soup
-- **Dynamic Content:** Selenium can handle JavaScript-based content, while 
-Beautiful Soup only works with static HTML.
-- **Performance:** Selenium is slower because it simulates a browser. 
-Beautiful Soup is fast but limited to static content only.
-- **Interactivity:** Selenium supports interactions such as form filling, button 
-clicking. Beautiful Soup only pulls data.
+ ## Güzel Çorba ile Farklılıklar
+- **Dinamik İçerik:** Selenium JavaScript tabanlı içeriği işleyebilirken 
+Beautiful Soup sadece statik HTML ile çalışır.
+- **Performans:** Selenium bir tarayıcıyı simüle ettiği için daha yavaştır. 
+Beautiful Soup hızlıdır ancak yalnızca statik içerikle sınırlıdır.
+- **Etkileşim:** Selenium, form doldurma, düğme ve diğer etkileşimleri destekler. 
+tıklanıyor. Beautiful Soup sadece verileri çeker.
 
  ```python
  from selenium import webdriver
@@ -245,20 +246,20 @@ finally:
 
 
 
- ## Which one should be preferred in which situations?
-- **Static Pages:** If only static data in HTML is required, Beautiful Soup is a 
-better choice.
-- **Dynamic Pages:** Selenium should be preferred if content created with 
-JavaScript needs to be pulled.
-- **Transactions Requiring Interaction:** Selenium is used for tasks such as 
-form filling and button clicking.
+ ## Hangi durumlarda hangisi tercih edilmelidir?
+- **Statik Sayfalar:** HTML'de yalnızca statik veriler gerekiyorsa, Beautiful Soup bir 
+daha iyi bir seçim.
+- **Dinamik Sayfalar:** Selenium ile oluşturulan içerikler tercih edilmelidir. 
+JavaScript çekilmesi gerekiyor.
+- **Etkileşim Gerektiren İşlemler:** Selenium aşağıdaki gibi görevler için kullanılır 
+form doldurma ve buton tıklama.
 
-## Usage Scenario in a Sample Project
- Suppose we want to pull product information from an e-commerce site:
+## Örnek Projede Kullanım Senaryosu
+ Bir e-ticaret sitesinden ürün bilgilerini çekmek istediğimizi varsayalım:
 
- **Beautiful Soup:** Used if prices and product titles are available directly in the 
-HTML source code.
- **Selenium:** Used if the prices and product titles are loaded dynamically via 
+ **Güzel Çorba:** Fiyatlar ve ürün başlıkları doğrudan sitede mevcutsa kullanılır 
+HTML kaynak kodu.
+ **Selenium:** Fiyatların ve ürün başlıklarının dinamik olarak yüklenmesi durumunda kullanılır. 
 JavaScript.
- **Both Together:** Dynamic content is loaded with Selenium, then Beautiful 
-Soup analyzes the page and pulls the data
+ **İkisi Birlikte:** Dinamik içerik Selenium ile yüklenir, ardından Güzel 
+Çorba sayfayı analiz eder ve verileri çeker
