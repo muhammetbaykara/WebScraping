@@ -1,20 +1,9 @@
-#                                                WEB SCRAPİNG
+#                                               Web Scraping (Web Kazıma)
 
 ## Web Kazıma Nedir?
- Web kazıma, aşağıdakileri toplama sürecini ifade eden bir tekniktir 
-web sitelerinden yapılandırılmış veriler. Bu, web sitelerini otomatik olarak tarayarak yapılır. 
-Web sayfalarının HTML kodu ve ilgili bilgilerin çıkarılması. Genellikle 
-Python gibi programlama dilleri ve kütüphaneler kullanılarak uygulanır 
-Beautiful Soup ve Selenium gibi. Web kazıma, büyük ölçekli ve 
-manuel veri analizinin zorluklarını ortadan kaldırarak otomatik veri analizi 
-toplama. Bu sayede veri toplama gibi çeşitli alanlarda kritik bir rol oynar. 
-analitik, makine öğrenimi ve iş zekası.
+Web kazıma, web sitelerinden yapılandırılmış verilerin toplanmasını sağlayan bir tekniktir. Bu işlem, web sayfalarını otomatik olarak tarayarak HTML kodu ve ilgili bilgilerin çıkarılmasını içerir. Web kazıma genellikle Python gibi programlama dilleri ve Beautiful Soup ve Selenium gibi kütüphaneler kullanılarak uygulanır. Web kazıma, büyük ölçekli veri toplama süreçlerini hızlandırarak, manuel veri analizinin zorluklarını ortadan kaldırır. Bu nedenle, analitik, makine öğrenimi ve iş zekası gibi çeşitli alanlarda kritik bir rol oynamaktadır.
 
- Teknik olarak, web kazıma, bir web sayfasını aşağıdaki yöntemlerle elde etmek için tasarlanmış bir süreçtir 
-HTTP istekleri göndermek, HTML DOM'u (Belge Nesne Modeli) analiz etmek 
-yapısı ve belirli verilerin çıkarılması. Bu süreçte, birçok farklı türde 
-metin, resim, video gibi veriler toplanabilir. Toplanan veriler şunları yapabilir 
-daha sonra analiz edilmek, görselleştirilmek veya diğer sistemlere entegre edilmek için kullanılabilir
+Teknik açıdan web kazıma, bir web sayfasını elde etmek için HTTP istekleri gönderilmesi, HTML DOM (Belge Nesne Modeli) yapısının analiz edilmesi ve belirli verilerin çıkarılmasını içeren bir süreçtir. Bu süreçle metin, resim ve video gibi çeşitli veri türleri toplanabilir. Elde edilen veriler, analiz, görselleştirme veya diğer sistemlerle entegrasyon için kullanılabilir.
 
 
 
@@ -23,10 +12,9 @@ daha sonra analiz edilmek, görselleştirilmek veya diğer sistemlere entegre ed
 
 
 ## Hangi Durumlarda Kullanılır?
- Web kazıma, birçok farklı sektörde geniş bir kullanım alanına sahiptir. Bu 
-en yaygın kullanım durumları aşağıda listelenmiştir:
+ Web kazıma, farklı sektörlerde geniş bir kullanım alanına sahiptir. Aşağıda en yaygın kullanım alanları sıralanmıştır:
 
- **1) E-Ticaret ve Fiyat İzleme:** Şirketler web kazıma yöntemini kullanır 
+ ** 1) E-Ticaret ve Fiyat İzleme:** Şirketler web kazıma yöntemini kullanır 
 rakiplerin fiyatlandırma politikalarını izlemek için teknikler. Bu şekilde, dinamik 
 fiyatlandırma stratejileri geliştirilebilir ve rekabetçi fiyatlar sunulabilir. 
 tüketiciler.
@@ -54,8 +42,7 @@ doğal dil işleme (NLP) projeleri için büyük metin veri kümeleri oluşturma
 
 
 ## Yasal ve Etik Hususlar
-Web kazıma teknik olarak güçlü bir araçtır, ancak aşağıdaki hususlara dikkat edilmesi gereken bir uygulamadır 
-yasal ve etik çerçevede dikkatli bir şekilde ele alınmalıdır.
+Web kazıma güçlü bir araç olsa da, kullanımında yasal ve etik kurallara dikkat edilmesi gerekmektedir
 
 ## 1) Yasal Çerçeve:
 - **Kullanım Şartları:** Çoğu web sitesi kazıma işlemine izin verilip verilmediğini açıklar veya 
@@ -83,9 +70,7 @@ Kaynağın açıkça belirtilmesi etik bir gerekliliktir.
 ## Beautiful Soup
 
 ## Kullanım Amacı
- Beautiful Soup, HTML işlemek için kullanılan Python ile yazılmış bir kütüphanedir 
-ve XML dosyaları ve bunlardan belirli bilgileri ayıklayın. Yaygın olarak 
-web kazıma projelerinde tercih edilir. Kullanım alanları aşağıdaki gibidir:
+ Beautiful Soup, Python ile yazılmış ve HTML ile XML dosyalarını işlemek için kullanılan bir kütüphanedir. Web kazıma projelerinde yaygın olarak tercih edilen Beautiful Soup'un temel kullanım alanları şunlardır:
 
 - **HTML Ayrıştırma:** Web sitelerinin HTML kodlarını analiz ederek yapılandırılmış veri elde etme 
 web sayfaları.
@@ -165,19 +150,14 @@ else:
 ## Selenium
 
 ## Dinamik Web Sayfalarındaki Rolü
- Selenium, web tarayıcılarını otomatikleştirmek için güçlü bir araçtır. Güzel'in aksine 
-Çorba, sabit HTML içeriği ile sınırlı değildir. Kullanım için idealdir 
-Dinamik olarak yüklenen içerik (örneğin, JavaScript ile oluşturulan veriler). 
-Selenium, tarayıcıdaki insan davranışını taklit ederek aşağıdaki gibi görevleri yerine getirir 
-sayfalarda gezinme, form doldurma ve JavaScript tarafından yüklenen verileri ayıklama.
+ Selenium, web tarayıcılarını otomatikleştirmek için kullanılan güçlü bir araçtır. 
+ Beautiful Soup'tan farklı olarak, dinamik içerikle (JavaScript ile yüklenen veriler gibi) çalışan web sayfalarındaki verileri çıkarmak için idealdir. 
+ Selenium, tarayıcıda insan davranışını taklit eder ve sayfalarda gezinme, form doldurma gibi etkileşimleri simüle edebilir..
 
- ## Güzel Çorba ile Farklılıklar
-- **Dinamik İçerik:** Selenium JavaScript tabanlı içeriği işleyebilirken 
-Beautiful Soup sadece statik HTML ile çalışır.
-- **Performans:** Selenium bir tarayıcıyı simüle ettiği için daha yavaştır. 
-Beautiful Soup hızlıdır ancak yalnızca statik içerikle sınırlıdır.
-- **Etkileşim:** Selenium, form doldurma, düğme ve diğer etkileşimleri destekler. 
-tıklanıyor. Beautiful Soup sadece verileri çeker.
+ ## Beautiful Soup ile Farklılıklar
+- **Dinamik İçerik:**  Selenium, JavaScript tabanlı içeriği işleyebilirken, Beautiful Soup yalnızca statik HTML ile çalışır.
+- **Performans:** Selenium daha yavaş bir tarayıcı simülasyonu gerektirirken, Beautiful Soup hız konusunda daha etkilidir.
+- **Etkileşim:**  Selenium, form doldurma, düğmelere tıklama gibi etkileşimleri desteklerken, Beautiful Soup yalnızca veri çekmeye yöneliktir.
 
  ```python
  from selenium import webdriver
@@ -247,19 +227,12 @@ finally:
 
 
  ## Hangi durumlarda hangisi tercih edilmelidir?
-- **Statik Sayfalar:** HTML'de yalnızca statik veriler gerekiyorsa, Beautiful Soup bir 
-daha iyi bir seçim.
-- **Dinamik Sayfalar:** Selenium ile oluşturulan içerikler tercih edilmelidir. 
-JavaScript çekilmesi gerekiyor.
-- **Etkileşim Gerektiren İşlemler:** Selenium aşağıdaki gibi görevler için kullanılır 
-form doldurma ve buton tıklama.
+- **Statik Sayfalar:** HTML'de yalnızca statik veriler gerekiyorsa, Beautiful Soup daha iyi bir seçimdir.
+- **Dinamik Sayfalar:** JavaScript ile yüklenen içerik için Selenium tercih edilmelidir.
+- **Etkileşim Gerektiren İşlemler:** Form doldurma, buton tıklama gibi etkileşimler için Selenium kullanılır.
 
 ## Örnek Projede Kullanım Senaryosu
  Bir e-ticaret sitesinden ürün bilgilerini çekmek istediğimizi varsayalım:
-
- **Güzel Çorba:** Fiyatlar ve ürün başlıkları doğrudan sitede mevcutsa kullanılır 
-HTML kaynak kodu.
- **Selenium:** Fiyatların ve ürün başlıklarının dinamik olarak yüklenmesi durumunda kullanılır. 
-JavaScript.
- **İkisi Birlikte:** Dinamik içerik Selenium ile yüklenir, ardından Güzel 
-Çorba sayfayı analiz eder ve verileri çeker
+**Beautiful Soup:** Eğer fiyatlar ve ürün başlıkları doğrudan HTML içinde mevcutsa.
+**Selenium:** Eğer fiyatlar ve ürün başlıkları JavaScript ile yükleniyorsa.
+**İkisini Birlikte Kullanma:** Dinamik içerik Selenium ile yüklenir, ardından Beautiful Soup ile veri çekilir
