@@ -79,7 +79,7 @@ web sayfaları.
 - **Navigasyon:** DOM ağacındaki öğelerde kolay navigasyon ve organizasyon
 - **Düzenleme:** HTML veya XML belgelerini düzenleyerek yeni veri yapıları oluşturma
 
-### Temel Özellikler ve Avantajlar
+### Temel Özellikler ve Avantajlar  
  - **Kullanıcı Dostu API:** Geliştiriciler HTML belgelerinde kolayca gezinebilir ve
  veri ayıklayın.
  - **Esneklik:** Farklı ayrıştırıcılarla çalışabilir (örn. Htm.parser, lxml).
@@ -89,7 +89,7 @@ web sayfaları.
  - **Python Ekosisteminde Uyumluluk:** Python ile kolayca entegre olabilir
  Pandas, NumPy gibi kütüphaneler
 
- ```python
+ ```python 
  from bs4 import BeautifulSoup
 import requests
 
@@ -159,7 +159,7 @@ else:
 - **Performans:** Selenium daha yavaş bir tarayıcı simülasyonu gerektirirken, Beautiful Soup hız konusunda daha etkilidir.
 - **Etkileşim:**  Selenium, form doldurma, düğmelere tıklama gibi etkileşimleri desteklerken, Beautiful Soup yalnızca veri çekmeye yöneliktir.
 
- ```python
+ ```python 
  from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
